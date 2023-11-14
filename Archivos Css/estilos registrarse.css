@@ -15,7 +15,7 @@ body{
 .form-register {
 
   width:400px;
-  height:550px;
+  height:550px auto;
   background: #24303c;
   padding: 30px;
   margin: auto;
