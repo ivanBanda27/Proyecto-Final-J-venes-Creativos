@@ -1,0 +1,397 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+    
+}
+
+header {
+    width: 100%;
+    position:fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    
+    
+}
+
+
+
+
+
+
+/*BARRA MENU*/
+
+
+.container__menu {
+    width: 100%;
+    height: 89px;
+    background-color: rgb(0, 40, 114);
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    border-bottom: 3px solid #f06000;
+
+
+
+}
+
+.logo img{ 
+    width: 300px;
+    margin-left: 10px;
+    height:85px;
+    background-color: #f06000;
+   
+}
+
+
+
+nav{
+    height: 80%;
+
+}
+
+nav > ul{
+    height: 100px;
+    display: flex;
+    
+
+}
+
+nav > ul > li {
+    height: 100%;
+    list-style: none;
+    
+}
+
+nav > ul > li > a {
+    width: auto;
+    height: 80px;
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+    transition: all 300ms ease;
+    font-family: 'Kanit', sans-serif;
+}
+
+nav > ul > li > a:hover {
+    transform: scale(1.2);
+    width: auto;
+    height: auto;
+    color: #f06000;
+   
+}
+
+
+/*IMAGEN DE INICIO*/
+
+
+.imagen1{
+    width: 100%;
+    height: 620px;
+    max-width: 100%;
+    background: linear-gradient(to right, rgb(0, 40, 114), #0c67cf)
+}
+
+.imgfondo{
+    width: 400px;
+    position: absolute;
+    top: 30%;
+    left: 57%;
+
+}
+
+
+.texto {
+    position: absolute;
+    top: 20%;
+    left: 57px;
+}
+
+.texto p {
+    font-size: 45px;
+    font-family: 'Kanit', sans-serif;
+    color: rgb(255, 255, 255);
+
+}
+
+.sub {
+    position: absolute;
+    top: 440px;
+    left:90px;
+
+    color:rgb(0, 0, 0);
+    font-family: 'Kanit', sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+/*ARTICULO*/
+
+main {
+    background: rgb(255, 255, 255);
+    padding: 10px;
+   
+}
+
+main > article > h2 {
+    padding: 36px;
+    text-align: center;
+    color:rgb(3, 43, 117);
+    font-size: 40px;
+    border-bottom: 4px solid #f06000;
+    
+}
+
+main > article > p {
+    
+    font-size: 23px;
+    
+
+
+
+}
+
+article {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 100px;
+    background: #ffffff;
+    
+    
+}
+
+
+/*BARRA*/
+
+
+.barra {
+    width: 100%;
+    height:150px;
+    background:linear-gradient(to right, rgb(0, 40, 114), #ecb17a6c);
+    color: white;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    border-left: 5px solid #f06000;
+    
+
+    
+
+
+}
+
+.barrainf > ul > li {
+    list-style: none;
+    display: inline-block;
+    padding:56px;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Kanit', sans-serif;
+    transition: all 300ms ease;
+}
+
+.barrainf > ul > li:hover {
+transform: scale(1.2);
+color: #f06000;
+}
+
+
+
+
+
+/*CONTAMOS CON Y ACCIONES*/
+
+.general {
+   
+    display: flex;
+    
+   
+}
+
+.general-1 {
+    
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: #dde3ff;
+    
+    
+
+}
+
+.general-2 {
+    height: auto;
+    
+    width: 50%;
+}
+
+.general-3 {
+    width: 50%;
+    
+}
+
+
+h2 {
+    font-size: 45px;
+    line-height: 70px;
+    color: #da9500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+    color: black;
+    margin: 25px 0 45px 0;
+}
+
+.orion_p{
+    text-decoration: none;
+    color: rgb(0, 40, 114);
+    transition: transform .2s;
+}
+
+
+.orion_p:hover{
+    font-size: 25px;
+    color: #f06000;
+
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #da9500;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+.btn-1:hover {
+    background-color:rgb(0, 40, 114);
+}
+
+
+/*PRODUCTOS*/
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.product {
+    padding: 10px;
+    border: 3px solid #ccc;
+    background-color: #fff;
+    margin: 25px;
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    box-shadow: 7px 7px;
+}
+
+
+.product > img {
+  width: 190px;
+
+}
+
+.product h3 {
+    font-size: 23px;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size:12px;
+    color: #4d4c4c;
+}
+
+.product button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.product button:hover {
+    background-color: #0056b3;
+}
+
+
+/*TESTIMONIOS*/
+
+h1{ 
+    text-align: center;
+}
+
+.reviews {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding-bottom: 40px;
+}
+
+.review {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.review h3 {
+    font-size: 1.5rem;
+}
+
+.rating {
+    color: #FFD700; /* Color amarillo para estrellas */
+}
+
+.comment {
+    margin: 10px 0;
+}
+
+/*FOOTER*/
+
+.footer {
+    padding: 30px;
+    background-color: #021466;
+    border-top: 4px solid #f06000;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link h3 {
+    font-size: 18px;
+    color: #f9fafc;
+    margin-bottom: 16px;
+}
+
+.link a {
+    font-size: 16px;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 15px;
+   
+}
+
+.link ul li {
+    list-style: none;
+}
+
