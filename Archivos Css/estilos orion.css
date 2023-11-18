@@ -338,7 +338,7 @@ h2{
 /*FOOTER*/
 
 .footer {
-    padding: 30px;
+    padding: 32px;
     background-color: #021466;
     border-top: 4px solid #f06000;
 }
@@ -346,23 +346,28 @@ h2{
 .footer-content {
     display: flex;
     justify-content: space-between;
+
 }
 
-.link h3 {
-    font-size: 18px;
+.links h4 {
+    font-size: 21px;
     color: #f9fafc;
-    margin-bottom: 16px;
+    margin-bottom: 14px;
 }
 
-.link a {
+.links a {
     font-size: 16px;
-    color: #ffffff;
+    color:white;
     display: block;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
    
 }
 
-.link ul li {
+.links ul li {
     list-style: none;
+}
+
+.links ul li:hover{
+    border-left: 4px solid #f06000;
 }
 
